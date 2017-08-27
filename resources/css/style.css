@@ -5,6 +5,8 @@ body {
   font-size: 22px;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -15,6 +17,9 @@ body {
   display: flex;
   align-items: center;
   z-index: 1;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
 }
 
 .logo img {
@@ -35,11 +40,27 @@ body {
 }
 
 .main_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("../images/img-mission-background.jpg");
-  text-align: center;
-  vertical-align: middle;
   width: 1200px;
   height: 700px;
+}
+
+.main_img_headers {
+  background-color: black;
+  width: 100%;
+}
+
+.main_img_headers h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+.main_img_headers h4 {
+  margin: 0;
+  padding: 10px;
 }
 
 nav span{

@@ -67,3 +67,12 @@ nav span{
   text-decoration: underline;
   padding-right: 20px;
 }
+
+.tea_of_month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 69px;
+  width: 1000px;
+}

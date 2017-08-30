@@ -69,10 +69,30 @@ nav span{
 }
 
 .tea_of_month {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  justify-content: center;
   position: relative;
   top: 69px;
   width: 1000px;
+  margin-top: 40px;
+}
+
+.tea_image img{
+  width: 300px;
+  height: 200px;
+}
+
+#right_margin {
+  margin-right: 50px;
+}
+
+.tea_image {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border-width: 0px;
+}
+
+.teas_row {
+  display: inline-block;
 }

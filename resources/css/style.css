@@ -82,17 +82,55 @@ nav span{
   height: 200px;
 }
 
-#right_margin {
-  margin-right: 50px;
-}
-
 .tea_image {
-  display: inline-block;
   padding: 0;
   margin: 0;
   border-width: 0px;
 }
 
 .teas_row {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+
+.locations {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  top: 69px;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  margin-top: 40px;
+  background-position: center;
+}
+
+.locations h2 {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.tea_locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+
+#second_row {
+  justify-content: center;
+}
+
+#second_row img {
+  padding: 25px;
 }

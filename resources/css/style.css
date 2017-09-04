@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  font-family: Halvetica;
+  font-family: Helvetica;
   color: seashell;
   font-size: 22px;
   opacity: 0.9;
@@ -101,7 +101,6 @@ nav span{
   width: 1200px;
   height: 500px;
   background-image: url("../images/img-locations-background.jpg");
-  margin-top: 40px;
   background-position: center;
 }
 
@@ -126,6 +125,18 @@ nav span{
   margin: 20px;
 }
 
+.contact {
+  height: 200px;
+  position: relative;
+  top:   269px;
+}
+
+.copyright {
+  display: flex;
+  position: relative;
+  top: 289px;
+  margin-left: 20px;
+}
 
 #second_row {
   justify-content: center;
